@@ -17,9 +17,9 @@ Artefato de entrada | Artefato de saída | Responsável | Critério de entrada
   
 ##### Especificar os requisitos
   1. Gerente de projeto aloca a equipe para o projeto
-  2. Gerente do projeto reune a equipe técnica (analista de desenvolvimento e analista de teste) para discutir a ata da reunião. O gerente de projetos envia um e-mail para todos os envolvidos, definindo o compromentimento com os requisitos
-  3. Analista de desenvolvimento prepara o documento de requisitos com base em um modelo definido pela empresa
-  4. Analista de requisito revisa o documento de requisitos
+  2. Gerente do projeto reune a equipe técnica (analista de desenvolvimento e analista de teste) para discutir a ata da reunião. O gerente de projetos envia um e-mail para todos os envolvidos, definindo o compromentimento com os requisitos. Cada participante da equipe técnica deve responder o e-mail confirmando o comprometimento. 
+  3. Analista de desenvolvimento prepara o documento de requisitos com base em um modelo definido pela empresa. O analista de desenvolvimento versiona o documento de requisitos
+  4. Analista de requisito revisa o documento de requisitos. O analista de requisito versiona a revisão do documento de requisitos.
 
 Artefato de entrada | Artefato de saída | Responsável | Critério de entrada
 ------------------- | ----------------- | ----------- | -------------------
@@ -27,9 +27,10 @@ Ata da reunião | Documento de requisitos, com requisitos funcionais e não func
 
 ##### Validar os requisitos
   1. O gerente do projeto e analista de requisitos validam o documento de requisitos com o cliente
-  2. Analista de desenvolvimento prepara o diagrama de caso de uso
-  3. Analista de desenvolvimento prepara o diagrama de classe
-  4. Analista de desenvolvimento prepara o diagrama de sequência para principais funcionalidades
+  2. Analista de desenvolvimento prepara o diagrama de caso de uso. O analista de desenvolvimento versiona o diagrama de caso de uso.
+  3. Analista de desenvolvimento prepara o diagrama de classe. O analista de desenvolvimento versiona o diagrama de classe.
+  4. Analista de desenvolvimento prepara o diagrama de sequência para principais funcionalidades. O analista de desenvolvimento versiona o diagrama de sequência.
+  5. O gerente do projeto deve revisar os diagramas criados e criar uma tag no controle de versão com todos os documentos.
 
 Artefato de entrada | Artefato de saída | Responsável | Critério de entrada
 ------------------- | ----------------- | ----------- | -------------------
@@ -42,7 +43,7 @@ Documento de requisitos | Documento de requisitos validado pelo cliente | Gerent
 Resultado |   Situação   | Ponto no processo | Observação
 --------- | ------------ | ----------------- | ----------
   GRE01   | ATENDIDO     | São os passo 1 e 2 da atividade "Levantamento de requisitos" | É gerado o artefato de saída da atividade "Levantamento de requisitos", ata de reunião, onde comprova todos os requisitos solicitados pelo cliente.
-  GRE02   | ATENDIDO     | ... | ...
-  GRE03   | NÃO ATENDIDO | Nenhum ponto | Existe a necessidade de criar um passo para o controle de mudança do documento de requistos e produtos do projeto (Os artefatos relacionados com o processo).
-  GRE04   | ATENDIDO     | Passo 4 da atividade "Especificar os requisitos" e passo 1 da atividade "Validar os requisitos". | ...
+  GRE02   | ATENDIDO     | Atendido no passo 2 da atividade "Especificação de requisitos". | O comprometimento da equipe técnica fica formalizado por e-mail.
+  GRE03   | ATENDIDO     | Passo 2 da atividade "Levantamento de requisitos". Passo 2,3,4 da atividade "Especificação de requisitos". Passo 1,2,3,4 da atividade "Validação de requisitos". | A ata de reunião ou e-mail de solicitação de mudança deve ser registrado no controle de versão definindo para cada um uma identificação (versão). Todos os outros documentos (documento de requisitos, e-mail de confirmação de validação e documentos de diagramas) tem uma referencia da identificação (versão) da ata de reunião ou e-mail de solicitação de mudança. 
+  GRE04   | ATENDIDO     | Passo 4 da atividade "Especificar os requisitos" e passos 1 e 5 da atividade "Validar os requisitos". | Para cada artefato gerado tem pelo menos um passo para revisão.
   GRE05   | NÃO ATENDIDO | Nenhuma atividade | Existe a necessidade de criar uma atividade para controle de mudanças.
