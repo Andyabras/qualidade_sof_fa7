@@ -35,3 +35,14 @@ Artefato de entrada | Artefato de saída | Responsável | Critério de entrada
 ------------------- | ----------------- | ----------- | -------------------
 Documento de requisitos | Documento de requisitos validado pelo cliente | Gerente do projeto, Analista requisitos e Analista de desenvolvimento | Requistos especificados
 
+***
+
+### Mapeamento de resultados
+
+Resultado |   Situação   | Ponto no processo | Observação
+--------- | ------------ | ----------------- | ----------
+  GRE01   | ATENDIDO     | São os passo 1 e 2 da atividade "Levantamento de requisitos" | É gerado o artefato de saída da atividade "Levantamento de requisitos", ata de reunião, onde comprova todos os requisitos solicitados pelo cliente.
+  GRE02   | ATENDIDO     | ... | ...
+  GRE03   | NÃO ATENDIDO | Nenhum ponto | Existe a necessidade de criar um passo para o controle de mudança do documento de requistos e produtos do projeto (Os artefatos relacionados com o processo).
+  GRE04   | ATENDIDO     | Passo 4 da atividade "Especificar os requisitos" e passo 1 da atividade "Validar os requisitos". | ...
+  GRE05   | NÃO ATENDIDO | Nenhuma atividade | Existe a necessidade de criar uma atividade para controle de mudanças.
