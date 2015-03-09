@@ -36,6 +36,15 @@ Artefato de entrada | Artefato de saída | Responsável | Critério de entrada
 ------------------- | ----------------- | ----------- | -------------------
 Documento de requisitos | Documento de requisitos validado pelo cliente | Gerente do projeto, Analista requisitos e Analista de desenvolvimento | Requistos especificados
 
+##### Controle de mudanças
+  1. O gerente de projetos recebe a solicitação de mudança e registra num Documento de Solicitação de Mudanças.
+  2. O gerente de projetos avalia o impacto destas mudanças. Os impactos podem ser no cronograma, custo, risco, esforço, afetar outros requisitos, dentre outros.
+  3. O gerente de projetos envia o documento de solicitação de mudanças para o cliente decidir se as mudanças devem ser realizadas.
+
+Artefato de entrada | Artefato de saída | Responsável | Critério de entrada
+------------------- | ----------------- | ----------- | -------------------
+Solicitação de mudança | Solicitação de mudanças documentada e avaliada pelo cliente | Gerente do projeto | Ter finalizado a fase de validação de requisitos
+
 ***
 
 ### Mapeamento de resultados
@@ -46,4 +55,4 @@ Resultado |   Situação   | Ponto no processo | Observação
   GRE02   | ATENDIDO     | Atendido no passo 2 da atividade "Especificação de requisitos". | O comprometimento da equipe técnica fica formalizado por e-mail.
   GRE03   | ATENDIDO     | Passo 2 da atividade "Levantamento de requisitos". Passo 2,3,4 da atividade "Especificação de requisitos". Passo 1,2,3,4 da atividade "Validação de requisitos". | A ata de reunião ou e-mail de solicitação de mudança deve ser registrado no controle de versão definindo para cada um uma identificação (versão). Todos os outros documentos (documento de requisitos, e-mail de confirmação de validação e documentos de diagramas) tem uma referencia da identificação (versão) da ata de reunião ou e-mail de solicitação de mudança. 
   GRE04   | ATENDIDO     | Passo 4 da atividade "Especificar os requisitos" e passos 1 e 5 da atividade "Validar os requisitos". | Para cada artefato gerado tem pelo menos um passo para revisão.
-  GRE05   | NÃO ATENDIDO | Nenhuma atividade | Existe a necessidade de criar uma atividade para controle de mudanças.
+  GRE05   | ATENDIDO | Atividade 'Controle de mudanças' | É gerado um documento comprovando e contendo a solicitação de mudanças, sendo que o cliente decide se as aceita, formalizando esta decisão através do próprio documento.
